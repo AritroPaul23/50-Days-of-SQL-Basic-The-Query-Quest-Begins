@@ -1,5 +1,5 @@
-🔥“50 Days of SQL ( Basic )🔍 | The Query Quest Begins”🔥
-🚀 Starting My 50-Day SQL Challenge! 🧠💻
+# 🔥“50 Days of SQL ( Basic )🔍 | The Query Quest Begins”🔥
+## 🚀 Starting My 50-Day SQL Challenge! 🧠💻
 
  I've decided to take on a 50-day self-learning challenge focused purely on SQL — the language behind data-driven decision-making.
 
@@ -13,7 +13,7 @@ Each day, I’ll explore a new SQL concept, solve real problems, and post bite-s
 
 
 
-👇 How I’ll Do It:
+## 👇 How I’ll Do It:
 
 🗓️ 50 Days — One SQL topic or problem per day
 
