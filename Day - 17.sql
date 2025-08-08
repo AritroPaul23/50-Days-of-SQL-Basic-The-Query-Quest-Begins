@@ -52,3 +52,16 @@ Promotion Start & End Date
 Total Sales Revenue linked to that promotion (0 if no sales were recorded)
 Sorted by promotion start date*/
 
+
+SELECT
+	promotions.promo_name,
+			promotions.start_date,
+            promotions.end_date,
+            COALESCE(SUM(quantity*price_per_unit), 0) AS total_sales_revenue
+FROM sales RIGHT JOIN promotions
+		ON sales.promo_id = promotions.promo_id
+GROUP BY promotions.promo_id,
+			promotions.promo_name,
+			promotions.start_date,
+            promotions.end_date
+ORDER BY promotions.start_date ASC;
